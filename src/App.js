@@ -6,6 +6,7 @@ import Posts from "./pages/Posts";
 import Error from "./pages/Error";
 import Home from "./pages/Home";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="*" element={<Error />} />
         </Routes>
       </BrowserRouter>
+      <Footer/>
     </div>
   );
 }
